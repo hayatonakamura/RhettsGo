@@ -1,0 +1,15 @@
+PODS:
+  - UberCore (0.9.0)
+  - UberRides (0.9.0):
+    - UberCore
+
+DEPENDENCIES:
+  - UberRides (~> 0.9)
+
+SPEC CHECKSUMS:
+  UberCore: c734f82e2152dcae52beaefc3bdf7e40186af821
+  UberRides: 90b7d6f60d01f3afa6e797f58f3ccbde824f90bf
+
+PODFILE CHECKSUM: 7510c478c2a47bb5c570c969d206434297dcb99a
+
+COCOAPODS: 1.4.0
