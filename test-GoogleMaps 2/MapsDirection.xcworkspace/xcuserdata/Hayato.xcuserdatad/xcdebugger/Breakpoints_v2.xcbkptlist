@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Maps Direction/SecondViewController.swift"
+            timestampString = "545172005.680873"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapsDirection.SecondViewController.__deallocating_deinit"
+                  moduleName = "MapsDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hayato/Desktop/test-GoogleMaps%202/Maps%20Direction/SecondViewController.swift"
+                  timestampString = "545171740.754159"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapsDirection.SecondViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MapsDirection.SecondViewController"
+                  moduleName = "MapsDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hayato/Desktop/test-GoogleMaps%202/Maps%20Direction/SecondViewController.swift"
+                  timestampString = "545171740.755816"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapsDirection.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MapsDirection.SecondViewController"
+                  moduleName = "MapsDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hayato/Desktop/test-GoogleMaps%202/Maps%20Direction/SecondViewController.swift"
+                  timestampString = "545171740.7575051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapsDirection.SecondViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MapsDirection.SecondViewController&gt;"
+                  moduleName = "MapsDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hayato/Desktop/test-GoogleMaps%202/Maps%20Direction/SecondViewController.swift"
+                  timestampString = "545171740.759581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapsDirection.SecondViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MapsDirection.SecondViewController&gt;"
+                  moduleName = "MapsDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hayato/Desktop/test-GoogleMaps%202/Maps%20Direction/SecondViewController.swift"
+                  timestampString = "545171740.761061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
