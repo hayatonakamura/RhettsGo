@@ -335,7 +335,7 @@ class SecondViewController: UIViewController {
                 }
             }
             var textdetails: String = "Loading"
-            // textdetails = results[1] + "\nPick up at: " + results[0] + "\nGet off at: " + results[2]
+             textdetails = results[1] + "\nPick up at: " + results[0] + "\nGet off at: " + results[2]
             print(textdetails)
             self.trainlabel.text = textdetails
             print("bus good")
