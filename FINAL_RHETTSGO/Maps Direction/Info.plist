@@ -2,29 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>UberClientID</key>
-    <string>kzfcInQDl-WlWFGqcKyigcwEboyuBkzf</string>
-    <key>UberServerToken</key>
-    <string>BRfuVL7iP20rwoLm6Sc2zy4fusBqg4EBw0SYFyD1</string>
-    <key>UberDisplayName</key>
-    <string>RhettsGo</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>uber</string>
-        <string>uberauth</string>
-        <string>googlechromes</string>
-        <string>comgooglemaps</string>
-    </array>
-    <key>UberCallbackURIs</key>
-    <array>
-        <dict>
-            <key>UberCallbackURIType</key>
-            <string>General</string>
-            <key>URIString</key>
-            <string>com.balitax.MapsDirection://oauth/consumer</string>
-        </dict>
-    </array>
-    
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -45,7 +22,13 @@
 	<string>1</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
-    
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uber</string>
+		<string>uberauth</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -69,5 +52,20 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UberCallbackURIs</key>
+	<array>
+		<dict>
+			<key>URIString</key>
+			<string>com.balitax.MapsDirection://oauth/consumer</string>
+			<key>UberCallbackURIType</key>
+			<string>General</string>
+		</dict>
+	</array>
+	<key>UberClientID</key>
+	<string>kzfcInQDl-WlWFGqcKyigcwEboyuBkzf</string>
+	<key>UberDisplayName</key>
+	<string>RhettsGo</string>
+	<key>UberServerToken</key>
+	<string>BRfuVL7iP20rwoLm6Sc2zy4fusBqg4EBw0SYFyD1</string>
 </dict>
 </plist>
