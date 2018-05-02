@@ -326,6 +326,10 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
             else if (start1 != "" && start2 == "" && start3 == "") {
                 UserDefaults.standard.set(startLocation.text, forKey: "origin2")
                 UserDefaults.standard.set(destinationLocation.text, forKey: "dest2")
+                UserDefaults.standard.set(locationStart.coordinate.latitude as? double_t, forKey: "slat2")
+                UserDefaults.standard.set(locationStart.coordinate.longitude as? double_t, forKey: "slon2")
+                UserDefaults.standard.set(locationEnd.coordinate.latitude as? double_t, forKey: "dlat2")
+                UserDefaults.standard.set(locationEnd.coordinate.longitude as? double_t, forKey: "dlon2")
                 print("second default")
                 start2 = UserDefaults.standard.object(forKey: "origin2") as! String
                 print(start2)
@@ -333,6 +337,10 @@ class ViewController: UIViewController , GMSMapViewDelegate ,  CLLocationManager
             else if (start1 != "" && start2 != "" && start3 == "") {
                 UserDefaults.standard.set(startLocation.text, forKey: "origin3")
                 UserDefaults.standard.set(destinationLocation.text, forKey: "dest3")
+                UserDefaults.standard.set(locationStart.coordinate.latitude as? double_t, forKey: "slat3")
+                UserDefaults.standard.set(locationStart.coordinate.longitude as? double_t, forKey: "slon3")
+                UserDefaults.standard.set(locationEnd.coordinate.latitude as? double_t, forKey: "dlat3")
+                UserDefaults.standard.set(locationEnd.coordinate.longitude as? double_t, forKey: "dlon3")
                 print("third default")
                 start3 = UserDefaults.standard.object(forKey: "origin3") as! String
                 print(start3)

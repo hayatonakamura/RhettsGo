@@ -31,15 +31,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="AfV-2I-cLe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBp-z6-eyW">
-                                <rect key="frame" x="132" y="102" width="111" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="45"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAN-l2-2Cr">
-                                <rect key="frame" x="18" y="102" width="339" height="305"/>
+                                <rect key="frame" x="18" y="167" width="339" height="188"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">This application was completed as a EC500: Building Software Project in Boston University College of Engineering. After 3 months of innovative coding and learning, Hayato Nakamura and Andreas Papadakis, the two developers, were able to complete the beta version of RhettsGo. For inquiries, please contact hayaton@bu.edu / andreas@bu.edu.</string>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
@@ -64,6 +57,13 @@
                                 <rect key="frame" x="68" y="563" width="238" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBp-z6-eyW">
+                                <rect key="frame" x="132" y="95" width="111" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.41237078220000001" green="0.46161235789999999" blue="0.70136024750000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>

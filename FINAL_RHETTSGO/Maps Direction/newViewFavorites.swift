@@ -98,6 +98,7 @@ class newViewFavorites: UIViewController {
         print(lon1)
         var lat2 = UserDefaults.standard.object(forKey: "dlat1") as? Double
         var lon2 = UserDefaults.standard.object(forKey: "dlon1") as? Double
+        if (lat1 != nil) {
         let origin:String = String(format:"%f,%f", lat1!,lon1!)
         let destination:String = String(format:"%f,%f", lat2!,lon2!)
         
@@ -114,6 +115,7 @@ class newViewFavorites: UIViewController {
         self.performSegue(withIdentifier: "favorites_segue", sender: self)
         clicked = 0;
         print(clicked)
+        }
         
     }
     
@@ -125,6 +127,7 @@ class newViewFavorites: UIViewController {
         print(lon1)
         var lat2 = UserDefaults.standard.object(forKey: "dlat2") as? Double
         var lon2 = UserDefaults.standard.object(forKey: "dlon2") as? Double
+        if (lat1 != nil) {
         let origin:String = String(format:"%f,%f", lat1!,lon1!)
         let destination:String = String(format:"%f,%f", lat2!,lon2!)
         
@@ -139,6 +142,7 @@ class newViewFavorites: UIViewController {
         
         clicked = 0;
         self.performSegue(withIdentifier: "favorites_segue", sender: self)
+        }
     }
     
     // Favorite 3 button is pressed
@@ -149,6 +153,7 @@ class newViewFavorites: UIViewController {
         print(lon1)
         var lat2 = UserDefaults.standard.object(forKey: "dlat3") as? Double
         var lon2 = UserDefaults.standard.object(forKey: "dlon3") as? Double
+        if (lat1 != nil) {
         let origin:String = String(format:"%f,%f", lat1!,lon1!)
         let destination:String = String(format:"%f,%f", lat2!,lon2!)
         
@@ -163,6 +168,7 @@ class newViewFavorites: UIViewController {
         
         clicked = 0;
         self.performSegue(withIdentifier: "favorites_segue", sender: self)
+        }
     }
     
 }
