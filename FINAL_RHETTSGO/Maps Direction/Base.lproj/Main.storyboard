@@ -507,7 +507,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0a-G9-abo">
-                                                <rect key="frame" x="265" y="255" width="102" height="50"/>
+                                                <rect key="frame" x="229" y="255" width="138" height="50"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                 <nil key="textColor"/>
@@ -628,6 +628,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Qgs-5k-qB4"/>
-        <segue reference="MqA-nR-1pW"/>
+        <segue reference="sKi-Jh-vWb"/>
     </inferredMetricsTieBreakers>
 </document>

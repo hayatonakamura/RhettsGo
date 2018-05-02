@@ -110,6 +110,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
+        Shuttlelabel.text = "Terrier Time"
         
         let builder = RideParametersBuilder()
         let pickupLocation = CLLocation(latitude: newlat1, longitude: newlon1)
