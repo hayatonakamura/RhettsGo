@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../Downloads/Lyft-iOS-sdk-master 3/LyftSDK.xcodeproj">
+      location = "group:../../Downloads/Lyft-iOS-sdk-master 3/LyftSDK.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../../Downloads/Lyft-iOS-sdk-master 3/LyftSDK.xcodeproj">
+      location = "group:../../../Downloads/Lyft-iOS-sdk-master 3/LyftSDK.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MapsDirection.xcodeproj">

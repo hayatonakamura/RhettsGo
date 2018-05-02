@@ -29,13 +29,13 @@ class newViewFavorites: UIViewController {
         d3.text = UserDefaults.standard.object(forKey: "dest3") as? String
         
         
-        if (s1.text == "") {
+        if (s1.text == "" || s1.text == nil) {
             s1.text = "Empty"
         }
-        if (s2.text == "") {
+        if (s2.text == "" || s2.text == nil) {
             s2.text = "Empty"
         }
-        if (s3.text == "") {
+        if (s3.text == "" || s3.text == nil) {
             s3.text = "Empty"
         }
         
